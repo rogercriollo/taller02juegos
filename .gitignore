@@ -1,0 +1,42 @@
+# Ignore binary files and intermediate build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore user-specific files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+.vs/
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.log
+*.tlog
+*.pdb
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*.swp
+*.swo
+
+# Ignore config files
+*.ini
+*.config
+
+# Ignore backup and autosave files
+*.backup
+*.autosave
+
+# Ignore certain content directories
+Content/Collections/
+Content/Developers/
+Content/Megascans/
